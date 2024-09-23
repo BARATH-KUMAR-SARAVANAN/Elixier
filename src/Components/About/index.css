@@ -1,0 +1,25 @@
+
+.about-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  padding-top: 80px;
+  min-height: 100vh;
+  background-image: url('https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727018915/OC1Y8F0_sqzsmn.jpg');
+  background-size: cover;
+ }
+ .about-content-container{
+   display: flex;
+ }
+ .about-heading{
+   color: #ffce10;
+ }
+ .about-text{
+  color: white;
+ }
+ .elixir-logo{
+   width: 50%;
+   margin-left: 10px;
+ }

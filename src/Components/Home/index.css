@@ -1,0 +1,25 @@
+.backdropPicture{
+  width: 100%;
+}
+.home-container{
+  padding: 50px;
+  min-height: 100vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.home-profile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.top-profile-text{
+  width: 70%;
+  margin: 50px;
+  text-align: center;
+}

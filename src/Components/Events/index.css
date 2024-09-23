@@ -1,0 +1,38 @@
+.events-container{
+  background-image: url('https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727018915/OC1Y8F0_sqzsmn.jpg');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.events-page{
+  padding: 0px;
+}
+.events-heading{
+  color: #ffce10;
+}
+.events-type-container{
+  display:flex;
+  color: white;
+}
+.technical-container{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+  background-color: #f3dce042;
+  border-radius: 20px;
+  width: 250px;
+  margin: 10px;
+  align-items: center;
+}
+.events-subHeading{
+  font-weight: bold;
+}
+.technical-events-picture{
+  width: 200px;
+  border-radius: 25px;
+  opacity: 0.8;
+}
