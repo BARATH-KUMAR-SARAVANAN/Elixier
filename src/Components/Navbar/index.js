@@ -8,6 +8,9 @@ const Navbar = () => {
       <img className='navbar-logo' alt="exlixirLogo" src="https://res.cloudinary.com/dt9nmt0n0/image/upload/v1726997531/gce_logo_swdssq.jpg"/>
       </Link>
       <ul className='navbar-menu'>
+        <Link className='link-item' to="/">
+          <li className='navbar-list-item'>Home</li>
+        </Link>
         <Link className='link-item' to="/about">
           <li className='navbar-list-item'>About</li>
         </Link>

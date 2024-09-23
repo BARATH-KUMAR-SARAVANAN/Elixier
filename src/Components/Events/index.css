@@ -1,11 +1,12 @@
 .events-container{
   background-image: url('https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727018915/OC1Y8F0_sqzsmn.jpg');
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 20px;
 }
 .events-page{
   padding: 0px;
@@ -35,4 +36,13 @@
   width: 200px;
   border-radius: 25px;
   opacity: 0.8;
+}
+.click-here-button{
+  background-color: #0785de;
+  border: 0px solid;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  margin-top:20px;
+  font-weight: bold;
 }
