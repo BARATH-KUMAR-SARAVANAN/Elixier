@@ -1,8 +1,15 @@
 .backdropPicture{
-  width: 100%;
+  width: 50%;
+}
+@media (max-width: 750px) {
+  .backdropPicture{
+    width: 100%;
+    margin: 0px;
+  }
 }
 .home-container{
-  padding: 50px;
+  padding: 40px;
+  padding-top: 0px;
   min-height: 100vh;
   background-image: url('https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727018915/OC1Y8F0_sqzsmn.jpg');
   background-size: cover;
@@ -18,10 +25,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 .top-profile-text{
   width: 70%;
-  margin: 50px;
+  margin: 0px;
   text-align: center;
+  color: white;
+  font-weight: bold;
 }
