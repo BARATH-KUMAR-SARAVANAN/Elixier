@@ -10,10 +10,12 @@
   min-height: 100vh;background-image: url('https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727018915/OC1Y8F0_sqzsmn.jpg');
   background-size: cover;
   padding: 20px;
+  padding-top: 80px;
+  text-align: center;
 }
 .tech-event-heading{
-  color: white;
-  margin: 100px;
+  color: #ffce10;
+  margin: 10px;
 }
 .event-holder{
   background-color: #ffffff85;
@@ -54,4 +56,24 @@
   color: white;
   margin:20px;
   font-weight: bold;
+}
+@media (max-width: 768px) {
+  .event-holder{
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+.event-card{
+  width: 250px;
+  flex-grow: 0;
+}
+.event-images{
+  width: 150px;
+}
+.moreDetail-button{
+  width: 150px;
+}
+.heading{
+  font-weight: normal;
+}
 }

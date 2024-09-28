@@ -1,8 +1,8 @@
-.tech-events-page{
+.non-tech-events-page{
   display: flex;
   flex-direction: column;
 }
-.tech-events-container{
+.non-tech-events-container{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,12 +10,12 @@
   min-height: 100vh;background-image: url('https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727018915/OC1Y8F0_sqzsmn.jpg');
   background-size: cover;
   padding: 20px;
+  padding-top: 80px;
 }
-.tech-event-heading{
-  color: white;
-  margin: 100px;
+.non-tech-event-heading{
+  color: #ffce10;
 }
-.event-holder{
+.non-tech-event-holder{
   background-color: #ffffff85;
   padding-left: 0px;
   display: flex;
@@ -24,7 +24,7 @@
   padding: 20px;
   border-radius: 10px;
 }
-.event-card{
+.non-tech-event-card{
   list-style-type: none;
   background-color: #ffce10;
   box-shadow: 0 2px 10px 0 rgb(37, 36, 36); 
@@ -40,13 +40,13 @@
   flex-shrink: 1;
   flex-grow: 1;
 }
-.event-images{
+.non-tech-event-images{
   width: 250px;
 }
 .heading{
   color: black;
 }
-.moreDetail-button{
+.non-tech-moreDetail-button{
   background-color: #0785de;
   border: 0px solid;
   padding: 10px;
@@ -54,4 +54,24 @@
   color: white;
   margin:20px;
   font-weight: bold;
+}
+@media (max-width: 768px) {
+  .non-tech-event-holder{
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+.non-tech-event-card{
+  width: 250px;
+  flex-grow: 0;
+}
+.non-tech-event-images{
+  width: 150px;
+}
+.non-tech-moreDetail-button{
+  width: 150px;
+}
+.heading{
+  font-weight: normal;
+}
 }

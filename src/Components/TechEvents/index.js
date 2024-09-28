@@ -3,7 +3,6 @@ import Navbar from '../Navbar'
 import './index.css'
 import { Link } from 'react-router-dom'
 
-
 const techEvents =[
   {
     id: 'PaperPresentation',

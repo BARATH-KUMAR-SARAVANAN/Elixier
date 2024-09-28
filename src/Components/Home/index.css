@@ -1,10 +1,19 @@
 .backdropPicture{
-  width: 50%;
+  width: 80%;
 }
-@media (max-width: 750px) {
+@media (min-width:992px) {
+  .backdropPicture{
+    width: 50%;
+  }
+}
+@media (max-width: 768px) {
   .backdropPicture{
     width: 100%;
     margin: 0px;
+  }
+  .top-profile-text{
+    font-size: 30px;
+    color: pink;
   }
 }
 .home-container{
@@ -34,4 +43,10 @@
   color: white;
   font-weight: bold;
   font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .top-profile-text{
+    font-size: 30px;
+  }
 }

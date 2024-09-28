@@ -2,7 +2,7 @@
 .about-container{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   padding: 50px;
   padding-top: 80px;
@@ -13,25 +13,34 @@
  .about-content-container{
    display: flex;
    flex-direction: column;
-   justify-content: center;
+   justify-content: flex-start;
    align-items: center;
    text-align: center;
  }
  .about-heading{
    color: #ffce10;
  }
+
  .about-text{
   color: white;
   width: 80%;
   font-size: 20px;
+  text-align: justify;
  }
- .elixir-logo{
-   width: 50%;
-   margin: 15px;
+ .bolding-text{
+  font-weight: bold;
+  color: #ffce10;
  }
-@media (max-width:750px) {
-  .elixir-logo{
-    width: 100%;
-    margin: 15px;
+@media (max-width:768px) {
+  .about-container{
+    padding: 10px;
+    padding-top: 80px;
+  }
+  .about-heading{
+    color: #ffce10;
+    font-weight: normal;
+  }
+  .about-text{
+    text-align: justify;
   }
 }

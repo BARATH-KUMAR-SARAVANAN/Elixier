@@ -5,6 +5,7 @@ import './index.css'
 class Home extends Component{
   render(){
     return (
+    
       <div>
         <Navbar/>
         <div className='home-container'>

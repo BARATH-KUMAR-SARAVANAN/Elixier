@@ -78,19 +78,19 @@ const nonTechEvents =[
 
 const NonTechEvents = () => {
   return (
-    <div className='tech-events-page'>
+    <div className='non-tech-events-page'>
       <Navbar/>
-      <div className='tech-events-container'>
-        <h1 className='tech-event-heading'>Non-Technical Events</h1>
-        <ul className='event-holder'>
+      <div className='non-tech-events-container'>
+        <h1 className='non-tech-event-heading'>Non-Technical Events</h1>
+        <ul className='non-tech-event-holder'>
           {
             nonTechEvents.map(each =>{ 
               return(
-            <li key={each.id} className='event-card'>
+            <li key={each.id} className='non-tech-event-card'>
               <h1 className='heading'>{each.event}</h1>
-              <img className='event-images' src={each.imgUrl} alt={each.event} />
+              <img className='non-tech-event-images' src={each.imgUrl} alt={each.event} />
                 <Link  to={`/events/non_tech_events/${each.id}`}>
-                  <button className='moreDetail-button'>More Detail</button>
+                  <button className='non-tech-moreDetail-button'>More Detail</button>
                 </Link>
             </li>)}
             )
