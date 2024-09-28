@@ -7,6 +7,7 @@ import Contact from './Components/Contact'
 import TechEvents from './Components/TechEvents'
 import NonTechEvents from './Components/NonTechEvents'
 import EventDetailedView from './Components/EventDetailedView'
+import NonTechEventDetailedView from './Components/NonTechEventDetailedView'
 import './App.css';
 
 class App extends Component {
@@ -21,6 +22,7 @@ class App extends Component {
         <Route exact path="/contact" element={<Contact/>} />
         <Route exact path="/events/tech_events" element={<TechEvents/>} />
         <Route exact path="/events/tech_events/:id" element={<EventDetailedView/>} />
+        <Route exact path="/events/non_tech_events/:id" element={<NonTechEventDetailedView/>} />
         <Route exact path="/events/non_tech_events" element={<NonTechEvents/>} />
         
       </Routes>

@@ -1,0 +1,39 @@
+.eventDetailedViewContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  align-items: center;
+  background-image: url('https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727018915/OC1Y8F0_sqzsmn.jpg');
+  background-size: cover;
+  padding-top: 80px;
+}
+
+.detailedViewHeading{
+  font-weight: normal;
+  color: #ffce10;
+}
+
+.rulesContainer{
+  list-style-type: disc;
+  color: white;
+}
+.eventCoordinatorCard{
+  color: white;
+  background-color: #ffffff42;
+  padding: 15px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.coordinatorText{
+  margin: 2px;
+}
+.link{
+  color: #ffce10;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 20px;
+}

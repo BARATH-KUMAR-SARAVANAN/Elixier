@@ -1,11 +1,12 @@
 import { useParams } from 'react-router-dom'
 import Navbar from '../Navbar'
 import './index.css'
-const techEvents = {
-  PaperPresentation: {
-    event: 'Paper Presentation',
+
+const nonTechEventDetailedView ={
+ "mobile-photography": {
     coordinator:'Sujithkkumar',
     contactNo:'01234567890',
+    event: 'Mobile Photography',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
     googleFormLink:'https://www.youtube.com/',
     rules:
@@ -21,10 +22,10 @@ const techEvents = {
       'Always carry a backup copy of your presentation on a USB and/or cloud storage.'
     ]
   },
-  ProjectPresentation: {
-    event: 'Project Presentation',
+  'meme-contest':{
     coordinator:'Sujithkkumar',
     contactNo:'01234567890',
+    event: 'Meme Contest',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
     googleFormLink:'https://www.youtube.com/',
     rules:
@@ -40,10 +41,10 @@ const techEvents = {
       'Always carry a backup copy of your presentation on a USB and/or cloud storage.'
     ]
   },
-  PaperPresentation2:{
-    event: 'Paper Presentation2',
+  'non-tech-quiz':{
     coordinator:'Sujithkkumar',
     contactNo:'01234567890',
+    event: 'Non-Tech Quiz',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
     googleFormLink:'https://www.youtube.com/',
     rules:
@@ -59,10 +60,10 @@ const techEvents = {
       'Always carry a backup copy of your presentation on a USB and/or cloud storage.'
     ]
   },
-  ProjectPresentation2:{
-    event: 'Project Presentation2',
+  'short-flim-making':{
     coordinator:'Sujithkkumar',
     contactNo:'01234567890',
+    event: 'Short Flim',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
     googleFormLink:'https://www.youtube.com/',
     rules:
@@ -80,10 +81,12 @@ const techEvents = {
   },
 }
 
-const EventDetailedView = () => {
+const NonTechEventDetailedView = () => {
+
   const params = useParams();
   const eventId =params.id;
-  const eve = techEvents[eventId]
+  const eve = nonTechEventDetailedView[eventId]
+  
     return(
       <div>
         <Navbar/>
@@ -104,4 +107,4 @@ const EventDetailedView = () => {
       </div>
     )
 }
-export default EventDetailedView
+export default NonTechEventDetailedView
