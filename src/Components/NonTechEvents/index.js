@@ -8,73 +8,22 @@ const nonTechEvents =[
   {
     id: 'mobile-photography',
     event: 'Mobile Photography',
-    imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
-    googleFormLink:'https://www.youtube.com/',
-    rules:
-    [
-      "Stick to the allotted time, usually 10-15 minutes for the presentation and 5 minutes for Q&A.",
-      'Ensure your presentation has a clear structure—Introduction, Methodology, Results, Conclusion.',
-      'Use minimal text per slide, focusing on bullet points and visuals (graphs, diagrams, images) over paragraphs.',
-      'Present complex ideas simply; avoid jargon unless necessary, and define any technical terms.',
-      'Dress professionally and maintain good posture. Be confident in your delivery and maintain eye contact.',
-      'Ask thought-provoking questions to the audience or use real-world examples to keep them engaged.',
-      'Mention sources and references where necessary to establish credibility.',
-      'Be respectful during the Q&A session, even if the questions are challenging. Respond clearly and concisely.',
-      'Always carry a backup copy of your presentation on a USB and/or cloud storage.'
-    ]
+    imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727721975/WhatsApp_Image_2024-10-01_at_00.10.09_ebc7acf4_re3coq.jpg',
   },{
     id:'meme-contest',
     event: 'Meme Contest',
-    imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
-    googleFormLink:'https://www.youtube.com/',
-    rules:
-    [
-      "Stick to the allotted time, usually 10-15 minutes for the presentation and 5 minutes for Q&A.",
-      'Ensure your presentation has a clear structure—Introduction, Methodology, Results, Conclusion.',
-      'Use minimal text per slide, focusing on bullet points and visuals (graphs, diagrams, images) over paragraphs.',
-      'Present complex ideas simply; avoid jargon unless necessary, and define any technical terms.',
-      'Dress professionally and maintain good posture. Be confident in your delivery and maintain eye contact.',
-      'Ask thought-provoking questions to the audience or use real-world examples to keep them engaged.',
-      'Mention sources and references where necessary to establish credibility.',
-      'Be respectful during the Q&A session, even if the questions are challenging. Respond clearly and concisely.',
-      'Always carry a backup copy of your presentation on a USB and/or cloud storage.'
-    ]
+    imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727721976/WhatsApp_Image_2024-10-01_at_00.11.17_457d46da_tyaml5.jpg',
   },{
     id: 'non-tech-quiz',
     event: 'Non-Tech Quiz',
-    imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
-    googleFormLink:'https://www.youtube.com/',
-    rules:
-    [
-      "Stick to the allotted time, usually 10-15 minutes for the presentation and 5 minutes for Q&A.",
-      'Ensure your presentation has a clear structure—Introduction, Methodology, Results, Conclusion.',
-      'Use minimal text per slide, focusing on bullet points and visuals (graphs, diagrams, images) over paragraphs.',
-      'Present complex ideas simply; avoid jargon unless necessary, and define any technical terms.',
-      'Dress professionally and maintain good posture. Be confident in your delivery and maintain eye contact.',
-      'Ask thought-provoking questions to the audience or use real-world examples to keep them engaged.',
-      'Mention sources and references where necessary to establish credibility.',
-      'Be respectful during the Q&A session, even if the questions are challenging. Respond clearly and concisely.',
-      'Always carry a backup copy of your presentation on a USB and/or cloud storage.'
-    ]
+    imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727717455/WhatsApp_Image_2024-09-30_at_21.27.21_c3341e62_raiu8k.jpg',
   },{
     id: 'short-flim-making',
     event: 'Short Flim',
-    imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
-    googleFormLink:'https://www.youtube.com/',
-    rules:
-    [
-      "Stick to the allotted time, usually 10-15 minutes for the presentation and 5 minutes for Q&A.",
-      'Ensure your presentation has a clear structure—Introduction, Methodology, Results, Conclusion.',
-      'Use minimal text per slide, focusing on bullet points and visuals (graphs, diagrams, images) over paragraphs.',
-      'Present complex ideas simply; avoid jargon unless necessary, and define any technical terms.',
-      'Dress professionally and maintain good posture. Be confident in your delivery and maintain eye contact.',
-      'Ask thought-provoking questions to the audience or use real-world examples to keep them engaged.',
-      'Mention sources and references where necessary to establish credibility.',
-      'Be respectful during the Q&A session, even if the questions are challenging. Respond clearly and concisely.',
-      'Always carry a backup copy of your presentation on a USB and/or cloud storage.'
-    ]
+    imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727721976/create-a-funky-image-where-a-boy-is-taking-a-short_ye17xz.jpg'
   },
 ]
+
 
 const NonTechEvents = () => {
   return (

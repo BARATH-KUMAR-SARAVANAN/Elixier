@@ -11,23 +11,25 @@
   background-size: cover;
   padding: 20px;
   padding-top: 80px;
+  text-align: center;
 }
 .non-tech-event-heading{
   color: #ffce10;
+  margin: 10px;
 }
 .non-tech-event-holder{
-  background-color: #ffffff85;
   padding-left: 0px;
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
-  width: 80%;
+  width: 85%;
   padding: 20px;
   border-radius: 10px;
 }
 .non-tech-event-card{
   list-style-type: none;
-  background-color: #ffce10;
-  box-shadow: 0 2px 10px 0 rgb(37, 36, 36); 
+  background-color: #f3dce042;
+  box-shadow: 0 0px 20px 0 rgb(255, 255, 255); 
   margin: 10px;
   display: flex;
   flex-direction: column;
@@ -37,14 +39,13 @@
   border-radius: 10px ;
   width: 300px;
   text-align: center;
-  flex-shrink: 1;
-  flex-grow: 1;
 }
 .non-tech-event-images{
   width: 250px;
 }
 .heading{
-  color: black;
+  font-weight: normal;
+  color: white;
 }
 .non-tech-moreDetail-button{
   background-color: #0785de;

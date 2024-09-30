@@ -7,71 +7,19 @@ const techEvents =[
   {
     id: 'PaperPresentation',
     event: 'Paper Presentation',
-    imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
-    googleFormLink:'https://www.youtube.com/',
-    rules:
-    [
-      "Stick to the allotted time, usually 10-15 minutes for the presentation and 5 minutes for Q&A.",
-      'Ensure your presentation has a clear structure—Introduction, Methodology, Results, Conclusion.',
-      'Use minimal text per slide, focusing on bullet points and visuals (graphs, diagrams, images) over paragraphs.',
-      'Present complex ideas simply; avoid jargon unless necessary, and define any technical terms.',
-      'Dress professionally and maintain good posture. Be confident in your delivery and maintain eye contact.',
-      'Ask thought-provoking questions to the audience or use real-world examples to keep them engaged.',
-      'Mention sources and references where necessary to establish credibility.',
-      'Be respectful during the Q&A session, even if the questions are challenging. Respond clearly and concisely.',
-      'Always carry a backup copy of your presentation on a USB and/or cloud storage.'
-    ]
+    imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727720048/WhatsApp_Image_2024-09-30_at_23.44.01_2d186dcc_cwnwug.jpg',
   },{
     id:'ProjectPresentation',
     event: 'Project Presentation',
-    imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
-    googleFormLink:'https://www.youtube.com/',
-    rules:
-    [
-      "Stick to the allotted time, usually 10-15 minutes for the presentation and 5 minutes for Q&A.",
-      'Ensure your presentation has a clear structure—Introduction, Methodology, Results, Conclusion.',
-      'Use minimal text per slide, focusing on bullet points and visuals (graphs, diagrams, images) over paragraphs.',
-      'Present complex ideas simply; avoid jargon unless necessary, and define any technical terms.',
-      'Dress professionally and maintain good posture. Be confident in your delivery and maintain eye contact.',
-      'Ask thought-provoking questions to the audience or use real-world examples to keep them engaged.',
-      'Mention sources and references where necessary to establish credibility.',
-      'Be respectful during the Q&A session, even if the questions are challenging. Respond clearly and concisely.',
-      'Always carry a backup copy of your presentation on a USB and/or cloud storage.'
-    ]
+    imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727717463/WhatsApp_Image_2024-09-30_at_21.38.17_bab237c3_cq92yh.jpg',
   },{
-    id: 'PaperPresentation2',
-    event: 'Paper Presentation',
-    imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
-    googleFormLink:'https://www.youtube.com/',
-    rules:
-    [
-      "Stick to the allotted time, usually 10-15 minutes for the presentation and 5 minutes for Q&A.",
-      'Ensure your presentation has a clear structure—Introduction, Methodology, Results, Conclusion.',
-      'Use minimal text per slide, focusing on bullet points and visuals (graphs, diagrams, images) over paragraphs.',
-      'Present complex ideas simply; avoid jargon unless necessary, and define any technical terms.',
-      'Dress professionally and maintain good posture. Be confident in your delivery and maintain eye contact.',
-      'Ask thought-provoking questions to the audience or use real-world examples to keep them engaged.',
-      'Mention sources and references where necessary to establish credibility.',
-      'Be respectful during the Q&A session, even if the questions are challenging. Respond clearly and concisely.',
-      'Always carry a backup copy of your presentation on a USB and/or cloud storage.'
-    ]
+    id: 'circuitDebugging',
+    event: 'Circuit Debugging',
+    imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727718853/WhatsApp_Image_2024-09-30_at_23.21.01_621b6fe2_nsngcr.jpg',
   },{
-    id: 'ProjectPresentation2',
-    event: 'Project Presentation',
-    imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
-    googleFormLink:'https://www.youtube.com/',
-    rules:
-    [
-      "Stick to the allotted time, usually 10-15 minutes for the presentation and 5 minutes for Q&A.",
-      'Ensure your presentation has a clear structure—Introduction, Methodology, Results, Conclusion.',
-      'Use minimal text per slide, focusing on bullet points and visuals (graphs, diagrams, images) over paragraphs.',
-      'Present complex ideas simply; avoid jargon unless necessary, and define any technical terms.',
-      'Dress professionally and maintain good posture. Be confident in your delivery and maintain eye contact.',
-      'Ask thought-provoking questions to the audience or use real-world examples to keep them engaged.',
-      'Mention sources and references where necessary to establish credibility.',
-      'Be respectful during the Q&A session, even if the questions are challenging. Respond clearly and concisely.',
-      'Always carry a backup copy of your presentation on a USB and/or cloud storage.'
-    ]
+    id: 'technicalQuiz',
+    event: 'Technical Quiz',
+    imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727717446/WhatsApp_Image_2024-09-30_at_21.26.45_9c301757_iunhnd.jpg',
   },
 ]
 
@@ -86,7 +34,7 @@ const TechEvents = () => {
             techEvents.map(each =>{ 
               return(
             <li key={each.id} className='event-card'>
-              <h1 className='heading'>{each.event}</h1>
+              <h1 className='event-heading'>{each.event}</h1>
               <img className='event-images' src={each.imgUrl} alt={each.event} />
                 <Link  to={`/events/tech_events/${each.id}`}>
                   <button className='moreDetail-button'>More Detail</button>

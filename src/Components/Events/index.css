@@ -17,6 +17,8 @@
 }
 .events-type-container{
   display:flex;
+  justify-content: space-around;
+  width: 80%;
   color: white;
 }
 .technical-container{
@@ -26,15 +28,17 @@
   padding: 20px;
   background-color: #f3dce042;
   border-radius: 20px;
-  width: 250px;
+  width: 200px;
   margin: 10px;
   align-items: center;
+  box-shadow: 0 0px 20px 0 rgb(255, 255, 255); 
+
 }
 .events-subHeading{
   font-weight: bold;
 }
 .technical-events-picture{
-  width: 200px;
+  width: 250px;
   border-radius: 25px;
   opacity: 0.8;
   height: 250px;
@@ -54,7 +58,7 @@
    width: 300px;
   }
   .technical-container{
-    width: 450px;
+    width: 400px;
   }
 }
 @media (max-width: 576px) {

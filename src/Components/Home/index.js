@@ -16,7 +16,6 @@ class Home extends Component{
             and cutting edge ideas to the mankind. <br/><br/>
             The new experince is waiting for you ahead.......</p>
           </div>
-          
         </div>
       </div>
     )

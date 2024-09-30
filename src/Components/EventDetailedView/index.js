@@ -40,8 +40,8 @@ const techEvents = {
       'Always carry a backup copy of your presentation on a USB and/or cloud storage.'
     ]
   },
-  PaperPresentation2:{
-    event: 'Paper Presentation2',
+  circuitDebugging:{
+    event: 'Circuit Debugging',
     coordinator:'Sujithkkumar',
     contactNo:'01234567890',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
@@ -59,8 +59,8 @@ const techEvents = {
       'Always carry a backup copy of your presentation on a USB and/or cloud storage.'
     ]
   },
-  ProjectPresentation2:{
-    event: 'Project Presentation2',
+  technicalQuiz:{
+    event: 'Technical Quiz',
     coordinator:'Sujithkkumar',
     contactNo:'01234567890',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
