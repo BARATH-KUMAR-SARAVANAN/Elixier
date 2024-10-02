@@ -7,7 +7,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  min-height: 100vh;background-image: url('https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727018915/OC1Y8F0_sqzsmn.jpg');
+  min-height: 100vh;background-image: url('https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727853307/background_pic_clg_pnshef.jpg');
   background-size: cover;
   padding: 20px;
   padding-top: 80px;
@@ -30,31 +30,40 @@
   list-style-type: none;
   background-color: #f3dce042;
   box-shadow: 0 0px 20px 0 rgb(255, 255, 255); 
-  margin: 10px;
+  margin: 20px 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 10px;
   border-radius: 10px ;
-  width: 300px;
+  width: 200px;
   text-align: center;
 }
+
 .event-images{
-  width: 250px;
+  width: 180px;
+  border-radius: 20px;
 }
 .event-heading{
   font-weight: normal;
   color: white;
 }
 .moreDetail-button{
-  background-color: #0785de;
-  border: 0px solid;
+  background-color: white;
+  border: 2px solid #0785de;
   padding: 10px;
   border-radius: 5px;
-  color: white;
+  color: #0785de;
   margin:20px;
   font-weight: bold;
+  transition-duration: 500ms;
+}
+.moreDetail-button:hover{
+  background-color: #0785de;
+  color: white;
+  scale: 1.1;
+  box-shadow: 0 0px 20px 0 rgb(255, 255, 255); 
 }
 @media (max-width: 768px) {
   .event-holder{

@@ -28,17 +28,27 @@ const About = () => {
           <span className='bolding-text'>
           THE EVENT FEATURES:<br/><br/>
           </span>
-          <span className='bolding-text'>Technical Paper Presentations:</span> Showcasing original research and 
-          innovative solutions addressing real-world electrical and electronics engineering challenges.
-          Workshops: Hands-on experiences in areas such as VLSI Design, PLC Automation, 
-          and Embedded Systems, helping participants enhance their practical knowledge.
+          <span className='bolding-text'>Paper Presentations: </span> 
+          Showcasing researches and 
+          innovative solutions addressing real-world 
+          electrical and electronics engineering challenges.<br/>
+          <span className='bolding-text'>Workshops: </span> 
+          Hands-on experiences in the area of 
+          Embedded Systems and IoT, helping participants 
+          enhance their practical knowledge.
           <br/>
-          <span className='bolding-text'>Expert Lectures:</span> Industry leaders and academic professionals will share insights 
-          on transformative technologies such as Machine Learning in Control Systems, Quantum 
-          Computing Applications in Electrical Engineering, and 5G Network Implementation.
+          <span className='bolding-text'>Expert Lectures: </span> 
+          Industry leaders and academic 
+          professionals will share insights 
+          on transformative technologies and 
+          their impacts and their knowledge
           <br/>
-          <span className='bolding-text'>Competitions:</span> Innovative design challenges and technical quizzes that push 
-          participants to apply core engineering principles in problem-solving scenarios.
+          <span className='bolding-text'>Competitions: </span> 
+          Innovative design challenges and 
+          technical quizzes that push 
+          participants to apply core engineering 
+          principles in problem-solving scenarios.
+          <br/>
           <br/>
           Elixir is committed to equipping participants with the tools and knowledge to advance their technical expertise and contribute to the future of engineering, while also promoting collaboration between academia and industry.
          </p>

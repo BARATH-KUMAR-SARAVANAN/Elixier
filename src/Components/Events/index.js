@@ -7,6 +7,7 @@ const Events = () => {
   return (
     <div className='events-page'>
       <Navbar/>
+    
       <div className='events-container'>
         <h1 className='events-heading'>Events</h1>
         <div className='events-type-container'>
