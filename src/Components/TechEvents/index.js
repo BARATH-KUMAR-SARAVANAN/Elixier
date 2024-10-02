@@ -3,7 +3,7 @@ import Navbar from '../Navbar'
 import './index.css'
 import { Link } from 'react-router-dom'
 
-const techEvents =[
+const techEvents = [
   {
     id: 'PaperPresentation',
     event: 'Paper Presentation',
@@ -20,6 +20,18 @@ const techEvents =[
     id: 'technicalQuiz',
     event: 'Technical Quiz',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727717446/WhatsApp_Image_2024-09-30_at_21.26.45_9c301757_iunhnd.jpg',
+  },,{
+    id:'SpellTech',
+    event: 'Spell Tech',
+    imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727717466/WhatsApp_Image_2024-09-30_at_21.32.28_764bb0e2_w1uy4v.jpg',
+  },{
+    id: 'JustAMinute',
+    event: 'Just A Minute',
+    imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727717465/WhatsApp_Image_2024-09-30_at_21.32.58_11dabb52_xqxvsv.jpg',
+  },{
+    id: 'Workshop',
+    event: 'Workshop',
+    imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727717459/WhatsApp_Image_2024-09-30_at_21.38.25_3944a7e7_up0zgk.jpg',
   },
 ]
 

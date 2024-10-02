@@ -6,15 +6,15 @@
   padding: 20px;
   padding-top: 50px;
   min-height: 100vh;
-  background-image: url('https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727853307/background_pic_t4wsnv.jpg');
+  background-image: url('https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727866757/background_pic_clg_mobile_smal_is5uir.jpg');
   background-size: cover;
   position:center ;
-  color: white;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
 }
+
 .home-profile{
   display: flex;
   flex-direction: column;
@@ -25,9 +25,21 @@
 .top-profile-text{
   font-size: 20px;
   text-align: justify;
-  font-weight: normal;
+  font-weight: lighter;
   width: 80%;
+  color: white;
+  text-shadow: 0px 0px 5px white;
+  padding: 15px;
+  border-radius: 10px;
+  background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255,0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0,0,0.37);
+
 }
+
 .events-button{
   background-color: #0785de ;
   border: 0px solid;
@@ -39,11 +51,14 @@
   font-weight: bold;
   width: 150px;
   font-size: 20px;
-  transition-duration: 500ms;
+  transition-duration: 150ms;
 }
 .events-button:hover{
   scale: 1.1;
   box-shadow: 0 0px 20px 0 rgb(255, 255, 255); 
+}
+.texting{
+  color: white;
 }
 @media (min-width: 768px) {
   .backdropPicture{
@@ -53,12 +68,13 @@
     width: 70%;
     margin: 0px;
     text-align: center;
-    color: white;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 20px;
+    color: white;
   }
   .home-container{
     padding-top: 0px;
+    background-image: url('https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727853307/background_pic_clg_pnshef.jpg');
   }
 }
 @media (min-width:992px) {

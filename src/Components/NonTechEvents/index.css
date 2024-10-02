@@ -20,7 +20,7 @@
 .non-tech-event-holder{
   padding-left: 0px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   width: 85%;
   padding: 20px;
@@ -29,32 +29,45 @@
 .non-tech-event-card{
   list-style-type: none;
   background-color: #f3dce042;
-  box-shadow: 0 0px 20px 0 rgb(255, 255, 255); 
-  margin: 10px;
+  margin: 20px 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 10px;
   border-radius: 10px ;
-  width: 300px;
+  width: 200px;
   text-align: center;
+  transition-duration: 150ms;
+}
+.non-tech-event-card:hover{
+  background-color: #c3a603e1;
+  box-shadow: 0 0px 20px 0 rgb(255, 255, 255); 
+  scale: 1.1;
 }
 .non-tech-event-images{
-  width: 250px;
+  width: 180px;
+  border-radius: 20px;
 }
 .heading{
   font-weight: normal;
   color: white;
 }
 .non-tech-moreDetail-button{
-  background-color: #0785de;
-  border: 0px solid;
+  background-color: white;
+  border: 2px solid #0785de;
   padding: 10px;
   border-radius: 5px;
-  color: white;
+  color: #0785de;
   margin:20px;
   font-weight: bold;
+  transition-duration: 150ms;
+}
+.non-tech-moreDetail-button:hover{
+  background-color: #0785de;
+  color: white;
+  scale: 1.1;
+  box-shadow: 0 0px 20px 0 rgb(255, 255, 255); 
 }
 @media (max-width: 768px) {
   .non-tech-event-holder{

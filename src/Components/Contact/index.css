@@ -9,7 +9,7 @@
   justify-content: flex-start;
   align-items: center;
   padding: 100px;
-  background-image: url('https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727018915/OC1Y8F0_sqzsmn.jpg');
+  background-image: url('https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727866757/background_pic_clg_mobile_smal_is5uir.jpg');
   background-size: cover;
   min-height: 100vh;
 }
@@ -18,23 +18,39 @@
 }
 .contacts-holder{
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
+  width: 100%;
 }
 .contact-card{
   background-color: #ffffff42;
   margin: 10px;
-  width: 250px;
-  flex-grow: 1;
+  width: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   padding: 10px;
   border-radius: 15px;
+  transition-duration: 100ms; 
+}
+.contact-card:hover{
+  box-shadow: 0 0px 20px 0 rgb(255, 255, 255);
+  scale: 1.1;
 }
 .contact-text{
   font-size: 20px;
   color: white;
   font-family: Trebuchet MS  ;
   margin: 5px;
+}
+@media (min-width:768px) {
+  .contacts-body-part{
+    background-image: url('https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727866757/background_pic_clg_mobile_klkkhl.jpg');
+  }
+}
+@media (min-width:992px) {
+  .contacts-body-part{
+    background-image: url('https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727853307/background_pic_clg_pnshef.jpg');
+  }
 }

@@ -2,80 +2,148 @@ import { useParams } from 'react-router-dom'
 import Navbar from '../Navbar'
 import './index.css'
 const techEvents = {
+  
   PaperPresentation: {
     event: 'Paper Presentation',
-    coordinator:'Sujithkkumar',
-    contactNo:'01234567890',
+    coordinator:'YASHVANTH S',
+    contactNo:'9043241982',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
     googleFormLink:'https://www.youtube.com/',
     rules:
     [
-      "Stick to the allotted time, usually 10-15 minutes for the presentation and 5 minutes for Q&A.",
-      'Ensure your presentation has a clear structure—Introduction, Methodology, Results, Conclusion.',
-      'Use minimal text per slide, focusing on bullet points and visuals (graphs, diagrams, images) over paragraphs.',
-      'Present complex ideas simply; avoid jargon unless necessary, and define any technical terms.',
-      'Dress professionally and maintain good posture. Be confident in your delivery and maintain eye contact.',
-      'Ask thought-provoking questions to the audience or use real-world examples to keep them engaged.',
-      'Mention sources and references where necessary to establish credibility.',
-      'Be respectful during the Q&A session, even if the questions are challenging. Respond clearly and concisely.',
-      'Always carry a backup copy of your presentation on a USB and/or cloud storage.'
+      "College ID card is REQUIRED.",
+      "Language of Presentation must be in ENGLISH only.",
+      "A College can send any number of teams with no more than 3 students per team.",
+      "All Participants are allowed to use a maximum of 10 Slides, including Participant Details.",
+      "The Maximum time limit for each team is 5 minutes.",
+      "Topics must be selected from the topics given below.",
+      "Only Engineering College students can participate.",
+      "Only Registered students must participate.",
+      "Replacements of Team members are not allowed after registration.",
+      "Registration Fees is Rs. 200/- per head.",
+      "Last Date for registration: OCTOBER 19 at 11pm",
+      "Send your Presentation to ____________ with team members Name and college name"
     ]
   },
   ProjectPresentation: {
     event: 'Project Presentation',
-    coordinator:'Sujithkkumar',
-    contactNo:'01234567890',
+    coordinator:'THILLAI NATHAN M',
+    contactNo:'6383220594',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
     googleFormLink:'https://www.youtube.com/',
     rules:
     [
-      "Stick to the allotted time, usually 10-15 minutes for the presentation and 5 minutes for Q&A.",
-      'Ensure your presentation has a clear structure—Introduction, Methodology, Results, Conclusion.',
-      'Use minimal text per slide, focusing on bullet points and visuals (graphs, diagrams, images) over paragraphs.',
-      'Present complex ideas simply; avoid jargon unless necessary, and define any technical terms.',
-      'Dress professionally and maintain good posture. Be confident in your delivery and maintain eye contact.',
-      'Ask thought-provoking questions to the audience or use real-world examples to keep them engaged.',
-      'Mention sources and references where necessary to establish credibility.',
-      'Be respectful during the Q&A session, even if the questions are challenging. Respond clearly and concisely.',
-      'Always carry a backup copy of your presentation on a USB and/or cloud storage.'
+      "College ID card is REQUIRED.",
+      "A College can send any number of teams with 3-4 students per team.",
+      "Only Engineering College students can participate.",
+      "Only Registered students must participate.",
+      "Replacements of Team members are not allowed after registration.",
+      "Registration Fees is Rs. 200/- per head.",
+      "Last Date for registration: OCTOBER 19 at 11pm",
+      "Send your Presentation to ____________ with team members Name and college name",
+      "Winners will Receive a CASH PRIZE",
+      "Minimum 5 to maximum 10 slides should be there for presenting the Project"
     ]
   },
   circuitDebugging:{
     event: 'Circuit Debugging',
-    coordinator:'Sujithkkumar',
-    contactNo:'01234567890',
+    coordinator:'YOGESH S',
+    contactNo:'9488605671',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
     googleFormLink:'https://www.youtube.com/',
     rules:
     [
-      "Stick to the allotted time, usually 10-15 minutes for the presentation and 5 minutes for Q&A.",
-      'Ensure your presentation has a clear structure—Introduction, Methodology, Results, Conclusion.',
-      'Use minimal text per slide, focusing on bullet points and visuals (graphs, diagrams, images) over paragraphs.',
-      'Present complex ideas simply; avoid jargon unless necessary, and define any technical terms.',
-      'Dress professionally and maintain good posture. Be confident in your delivery and maintain eye contact.',
-      'Ask thought-provoking questions to the audience or use real-world examples to keep them engaged.',
-      'Mention sources and references where necessary to establish credibility.',
-      'Be respectful during the Q&A session, even if the questions are challenging. Respond clearly and concisely.',
-      'Always carry a backup copy of your presentation on a USB and/or cloud storage.'
+      "College ID card is REQUIRED.",
+      "There will be two rounds.",
+      "Each round will be around 10 minutes.",
+      "We will provide A4 sheets with CIRCUIT DIAGRAMS containing HIDDEN ERRORS.",
+      "Identify the Errors and provide precise solutions.",
+      "Test your Electronics knowledge and problem-solving skills.",
+      "The participants will not be allowed to use mobile or other electronic instruments.",
+      "Only Engineering College students can participate.",
+      "Only Registered students must participate.",
+      "Registration Fees is Rs. 200/- per head.",
+      "Last Date for registration: OCTOBER 19 at 11pm.",
+      "Additionally you can also participate either Tech Quiz, Spell Tech, or Just A Minute.",
+      "Participation certificates will be provided to all participants."
     ]
   },
   technicalQuiz:{
     event: 'Technical Quiz',
-    coordinator:'Sujithkkumar',
-    contactNo:'01234567890',
+    coordinator:'SARAVANA SATHISH ',
+    contactNo:'8778763236',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
     googleFormLink:'https://www.youtube.com/',
     rules:
     [
-      "Stick to the allotted time, usually 10-15 minutes for the presentation and 5 minutes for Q&A.",
-      'Ensure your presentation has a clear structure—Introduction, Methodology, Results, Conclusion.',
-      'Use minimal text per slide, focusing on bullet points and visuals (graphs, diagrams, images) over paragraphs.',
-      'Present complex ideas simply; avoid jargon unless necessary, and define any technical terms.',
-      'Dress professionally and maintain good posture. Be confident in your delivery and maintain eye contact.',
-      'Ask thought-provoking questions to the audience or use real-world examples to keep them engaged.',
-      'Mention sources and references where necessary to establish credibility.',
-      'Be respectful during the Q&A session, even if the questions are challenging. Respond clearly and concisely.',
-      'Always carry a backup copy of your presentation on a USB and/or cloud storage.'
+      "College ID card is REQUIRED.",
+      "There will be two rounds.",
+      "Each round will be around 20 minutes and 15 minutes respectively.",
+      "The participants will not be allowed to use mobile or other electronic instruments.",
+      "Only Engineering College students can participate.",
+      "Replacements of Team members are not allowed after registration.",
+      "Only Registered students must participate.",
+      "Registration Fees is Rs. 200/- per head.",
+      "Last Date for registration: OCTOBER 19 at 11pm.",
+      "Additionally you can also participate either Circuit Debugging, Spell Tech, or Just A Minute.",
+      "Participation certificates will be provided to all participants."
+    ]
+  },
+  SpellTech: {
+    event: 'Spell Tech',
+    coordinator:'ARAVIND R',
+    contactNo:'7448863380',
+    imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
+    googleFormLink:'https://www.youtube.com/',
+
+    rules:
+    [
+      "College ID card is REQUIRED.",
+      "A College can send any number of teams with 3-4 students per team.",
+      "Only Engineering College students can participate.",
+      "Only Registered students must participate.",
+      "Replacements of Team members are not allowed after registration.",
+      "Registration Fees is Rs. 200/- per head.",
+      "Last Date for registration: OCTOBER 19 at 11pm",
+      "Send your Presentation to _____________ with team members Name and college name",
+      "Winners will Receive a CASH PRIZE",
+      "Minimum 5 to maximum 10 slides should be there for presenting the Project"
+    ]
+  },
+  JustAMinute:{
+    event: 'Just A Minute',
+    coordinator:'BOOBALAN D',
+    contactNo:'9942817568',
+    imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
+    googleFormLink:'https://www.youtube.com/',
+    rules:
+    [
+      "College ID card is REQUIRED.",
+      "Only Engineering College students can participate.",
+      "Only Registered students must participate.",
+      "Participants are given a technical related topic on the spot.",
+      "The Participant must speak for exactly ONE MINUTE on the topic",
+      "Judges Typically analyse your performance based on the correctness, fluency, coherence, and the ability to stay within the rules",
+      "Registration Fees is Rs. 200/- per head.",
+      "Last Date for registration: OCTOBER 19 at 11pm.",
+      "Additionally you can also participate either Tech Quiz, Spell Tech, or Circuit Debugging.",
+      "Participation certificates will be provided to all participants."
+    ]
+  },
+  Workshop:{
+    event: 'Workshop',
+    coordinator:'Pavish S',
+    contactNo:'9894835807',
+    imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
+    googleFormLink:'https://www.youtube.com/',
+    rules:
+    [
+      "College ID card is REQUIRED.",
+      "Only Engineering College students can participate.",
+      "Only Registered students must participate.",
+      "Registration Fees is Rs. 200/- per head.",
+      "Last Date for registration: OCTOBER 19 at 11pm.",
+      "Participation certificates will be provided to all participants."
     ]
   },
 }
