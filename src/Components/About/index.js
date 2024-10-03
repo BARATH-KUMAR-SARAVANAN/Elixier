@@ -52,6 +52,14 @@ const About = () => {
           <br/>
           Elixir is committed to equipping participants with the tools and knowledge to advance their technical expertise and contribute to the future of engineering, while also promoting collaboration between academia and industry.
          </p>
+         
+        <h1 className='about-heading'>ELIXIR'23 Memories</h1>
+         <div className='images-container'>
+          <img className='memories-image memories-image1' src='https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727890318/cor12_hmgx16.jpg' alt='memories'/>
+          <img className='memories-image memories-image2' src='https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727890318/cor14_c53x8g.jpg' alt='memories'/>
+          <img className='memories-image memories-image3' src='https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727890318/cor1_n26iwh.jpg' alt='memories'/>
+          <img className='memories-image memories-image4' src='https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727890318/cor13_lzqfl6.jpg' alt='memories'/>
+         </div>
         </div>
       </div>
     </div>

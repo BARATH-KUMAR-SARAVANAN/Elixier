@@ -1,24 +1,23 @@
-.tech-events-page{
+.non-tech-events-page{
   display: flex;
   flex-direction: column;
 }
-.tech-events-container{
+.non-tech-events-container{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  min-height: 100vh;
-  background-image: url('https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727853307/background_pic_clg_pnshef.jpg');
+  min-height: 100vh;background-image: url('https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727018915/OC1Y8F0_sqzsmn.jpg');
   background-size: cover;
   padding: 20px;
   padding-top: 80px;
   text-align: center;
 }
-.tech-event-heading{
+.non-tech-event-heading{
   color: #ffce10;
   margin: 10px;
 }
-.event-holder{
+.non-tech-event-holder{
   padding-left: 0px;
   display: flex;
   justify-content: space-around;
@@ -27,8 +26,7 @@
   padding: 20px;
   border-radius: 10px;
 }
-
-.event-card{
+.non-tech-event-card{
   list-style-type: none;
   background-color: #f3dce042;
   margin: 20px 5px;
@@ -38,25 +36,24 @@
   justify-content: center;
   padding: 10px;
   border-radius: 10px ;
-  width: 250px;
+  width: 350px;
   text-align: center;
   transition-duration: 150ms;
 }
-
-.event-card:hover{
+.non-tech-event-card:hover{
   background-color: #c3a603e1;
   box-shadow: 0 0px 20px 0 rgb(255, 255, 255); 
   scale: 1.1;
 }
-.event-images{
+.non-tech-event-images{
   width: 180px;
   border-radius: 20px;
 }
-.event-heading{
+.heading{
   font-weight: normal;
   color: white;
 }
-.moreDetail-button{
+.non-tech-moreDetail-button{
   background-color: white;
   border: 2px solid #0785de;
   padding: 10px;
@@ -66,32 +63,29 @@
   font-weight: bold;
   transition-duration: 150ms;
 }
-.moreDetail-button:hover{
+.non-tech-moreDetail-button:hover{
   background-color: #0785de;
   color: white;
   scale: 1.1;
   box-shadow: 0 0px 20px 0 rgb(255, 255, 255); 
 }
 @media (max-width: 768px) {
-  .event-holder{
+  .non-tech-event-holder{
     align-items: center;
     flex-direction: column;
     justify-content: center;
   }
-.event-card{
+.non-tech-event-card{
   width: 250px;
   flex-grow: 0;
 }
-.event-images{
+.non-tech-event-images{
   width: 150px;
 }
-.moreDetail-button{
+.non-tech-moreDetail-button{
   width: 150px;
 }
 .heading{
   font-weight: normal;
-}
-.tech-events-container{
-  background-image: url('https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727866757/background_pic_clg_mobile_smal_is5uir.jpg');
 }
 }

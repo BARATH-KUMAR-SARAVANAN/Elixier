@@ -7,12 +7,14 @@ const techEvents = [
   {
     id: 'PaperPresentation',
     event: 'Paper Presentation',
-    imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727720048/WhatsApp_Image_2024-09-30_at_23.44.01_2d186dcc_cwnwug.jpg',
-  },{
+    imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727720048/WhatsApp_Image_2024-09-30_at_23.44.01_2d186dcc_cwnwug.jpg'
+  },
+  {
     id:'ProjectPresentation',
     event: 'Project Presentation',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727717463/WhatsApp_Image_2024-09-30_at_21.38.17_bab237c3_cq92yh.jpg',
-  },{
+  },
+  {
     id: 'circuitDebugging',
     event: 'Circuit Debugging',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727718853/WhatsApp_Image_2024-09-30_at_23.21.01_621b6fe2_nsngcr.jpg',
@@ -20,7 +22,7 @@ const techEvents = [
     id: 'technicalQuiz',
     event: 'Technical Quiz',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727717446/WhatsApp_Image_2024-09-30_at_21.26.45_9c301757_iunhnd.jpg',
-  },,{
+  },{
     id:'SpellTech',
     event: 'Spell Tech',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727717466/WhatsApp_Image_2024-09-30_at_21.32.28_764bb0e2_w1uy4v.jpg',
@@ -28,11 +30,7 @@ const techEvents = [
     id: 'JustAMinute',
     event: 'Just A Minute',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727717465/WhatsApp_Image_2024-09-30_at_21.32.58_11dabb52_xqxvsv.jpg',
-  },{
-    id: 'Workshop',
-    event: 'Workshop',
-    imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727717459/WhatsApp_Image_2024-09-30_at_21.38.25_3944a7e7_up0zgk.jpg',
-  },
+  }
 ]
 
 const TechEvents = () => {

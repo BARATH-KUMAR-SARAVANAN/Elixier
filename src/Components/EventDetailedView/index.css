@@ -1,39 +1,46 @@
 .eventDetailedViewContainer{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  min-height: 100vh;
-  padding: 20px;
+  justify-content: flex-start;
+  height: 100vh;
+  padding: 0px;
   align-items: center;
   background-image: url('https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727018915/OC1Y8F0_sqzsmn.jpg');
   background-size: cover;
   padding-top: 80px;
 }
-
-.detailedViewHeading{
+.detailedViewHeadings{
   font-weight: normal;
   color: #ffce10;
+  font-size: 40px;
 }
-
 .rulesContainer{
   list-style-type: disc;
   color: white;
 }
 .eventCoordinatorCard{
   color: white;
-  background-color: #ffffff42;
   padding: 15px;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
   text-align: center;
 }
+.rulesElement{
+  font-size: 20px;
+}
 .coordinatorText{
   margin: 2px;
+  font-size: 20px;
 }
 .link{
   color: #ffce10;
   text-decoration: none;
   font-weight: bold;
   margin: 20px;
+  font-size: 30px;
+}
+.link:hover{
+  text-shadow:  0px 0px 3px  rgb(255, 255, 255);
+  scale: 1.1;
 }

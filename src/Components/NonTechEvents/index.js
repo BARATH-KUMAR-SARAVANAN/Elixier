@@ -18,13 +18,16 @@ const nonTechEvents =[
     event: 'Non-Tech Quiz',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727717455/WhatsApp_Image_2024-09-30_at_21.27.21_c3341e62_raiu8k.jpg',
   },{
-    id: 'short-flim-making',
-    event: 'Short Flim',
+    id: 'logo-making',
+    event: 'Logo Making',
+    imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727717455/WhatsApp_Image_2024-09-30_at_21.27.21_c3341e62_raiu8k.jpg',
+  },{
+    id: 'poster-presentation',
+    event: 'Poster Presentation',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727721976/create-a-funky-image-where-a-boy-is-taking-a-short_ye17xz.jpg'
   },
+  
 ]
-
-
 const NonTechEvents = () => {
   return (
     <div className='non-tech-events-page'>

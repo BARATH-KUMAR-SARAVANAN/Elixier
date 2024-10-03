@@ -22,7 +22,7 @@ const techEvents = {
       "Replacements of Team members are not allowed after registration.",
       "Registration Fees is Rs. 200/- per head.",
       "Last Date for registration: OCTOBER 19 at 11pm",
-      "Send your Presentation to ____________ with team members Name and college name"
+      "Send your Abstract to gceelixir@gmail.com with team members Name and college name"
     ]
   },
   ProjectPresentation: {
@@ -40,7 +40,6 @@ const techEvents = {
       "Replacements of Team members are not allowed after registration.",
       "Registration Fees is Rs. 200/- per head.",
       "Last Date for registration: OCTOBER 19 at 11pm",
-      "Send your Presentation to ____________ with team members Name and college name",
       "Winners will Receive a CASH PRIZE",
       "Minimum 5 to maximum 10 slides should be there for presenting the Project"
     ]
@@ -105,7 +104,6 @@ const techEvents = {
       "Replacements of Team members are not allowed after registration.",
       "Registration Fees is Rs. 200/- per head.",
       "Last Date for registration: OCTOBER 19 at 11pm",
-      "Send your Presentation to _____________ with team members Name and college name",
       "Winners will Receive a CASH PRIZE",
       "Minimum 5 to maximum 10 slides should be there for presenting the Project"
     ]
@@ -131,7 +129,7 @@ const techEvents = {
     ]
   },
   Workshop:{
-    event: 'Workshop',
+    event: 'Iot And Embedded Workshop',
     coordinator:'Pavish S',
     contactNo:'9894835807',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
@@ -141,7 +139,7 @@ const techEvents = {
       "College ID card is REQUIRED.",
       "Only Engineering College students can participate.",
       "Only Registered students must participate.",
-      "Registration Fees is Rs. 200/- per head.",
+      "Registration Fees is Rs. 300/- per head.",
       "Last Date for registration: OCTOBER 19 at 11pm.",
       "Participation certificates will be provided to all participants."
     ]
@@ -156,7 +154,7 @@ const EventDetailedView = () => {
       <div>
         <Navbar/>
         <div className='eventDetailedViewContainer'>
-          <h1 className='detailedViewHeading'>{eve.event}</h1>
+          <h1 className='detailedViewHeadings'>{eve.event}</h1>
           <ul className='rulesContainer'>
             {
               eve.rules.map(each => <li className='rulesElement' key={each}>{each}</li>)

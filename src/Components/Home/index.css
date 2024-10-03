@@ -79,6 +79,13 @@
 }
 @media (min-width:992px) {
   .backdropPicture{
-    width: 30%;
+    width: 35%;
+    margin-top: 50px;
+  }
+  .top-profile-text{
+    margin-top: 20px;
+  }
+  .home-container{
+    background-image: url('https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727941520/background_pic_dept_m3xvkd.jpg');
   }
 }

@@ -8,6 +8,7 @@ import TechEvents from './Components/TechEvents'
 import NonTechEvents from './Components/NonTechEvents'
 import EventDetailedView from './Components/EventDetailedView'
 import NonTechEventDetailedView from './Components/NonTechEventDetailedView'
+import NonTechEventsSplit from './Components/non_tech_events_split'
 import './App.css';
 
 class App extends Component {
@@ -24,6 +25,7 @@ class App extends Component {
         <Route exact path="/events/tech_events/:id" element={<EventDetailedView/>} />
         <Route exact path="/events/non_tech_events/:id" element={<NonTechEventDetailedView/>} />
         <Route exact path="/events/non_tech_events" element={<NonTechEvents/>} />
+        <Route exact path="/events/non_tech_events_split" element={<NonTechEventsSplit/>} />
         
       </Routes>
       </BrowserRouter>
