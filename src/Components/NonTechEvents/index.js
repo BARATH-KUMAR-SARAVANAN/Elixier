@@ -25,6 +25,10 @@ const nonTechEvents =[
     id: 'poster-presentation',
     event: 'Poster Presentation',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727721976/create-a-funky-image-where-a-boy-is-taking-a-short_ye17xz.jpg'
+  },{
+    id: 'iplAuction',
+    event: 'IPL Auction',
+    imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727721976/create-a-funky-image-where-a-boy-is-taking-a-short_ye17xz.jpg'
   },
   
 ]

@@ -69,7 +69,7 @@ const techEvents = {
   },
   technicalQuiz:{
     event: 'Technical Quiz',
-    coordinator:'SARAVANA SATHISH ',
+    coordinator:'SARAVANA SATHISH R',
     contactNo:'8778763236',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
     googleFormLink:'https://www.youtube.com/',
@@ -90,7 +90,7 @@ const techEvents = {
   },
   SpellTech: {
     event: 'Spell Tech',
-    coordinator:'ARAVIND R',
+    coordinator:'ARVIND R',
     contactNo:'7448863380',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
     googleFormLink:'https://www.youtube.com/',
