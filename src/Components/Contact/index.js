@@ -5,25 +5,61 @@ import './index.css'
 const Contact = () => {
   const membersDetails = [
     {
-    name:'Sujithkkumar',
-    post:'Secretary',
-    mobile:'123456789',
-    mail: 'example@gmail.com'
+    name:'Yashvanth S',
+    post:'Call For Papers',
+    mobile:'9043241982',
   },{
-    name:'TamilSelvan',
-    post:'Treasurer',
-    mobile:'123456789',
-    mail: 'example@gmail.com'
+    name:'Thillainathan M',
+    post:'Tech Carnival',
+    mobile:'6383220594',
   },{
-    name:'Alex Pandiyan',
-    post:'Co-ordinator',
-    mobile:'123456789',
-    mail: 'example@gmail.com'
+    name:'Pavish S',
+    post:'Workshop',
+    mobile:'9894835807',
   },{
-    name:'Pavish',
-    post:'Technical Head',
-    mobile:'123456789',
-    mail: 'example@gmail.com'
+    name:'Yogesh S',
+    post:'Trouble Shooting',
+    mobile:'9488605671',
+  },{
+    name:'Saravana Sathish R',
+    post:'Quizz Bowl',
+    mobile:'8778763236',
+  },{
+    name:'Arvind R',
+    post:'Spell Tech',
+    mobile:'7448863380',
+  },{
+    name:'Boobalan D',
+    post:'Just a Minute',
+    mobile:'6383220594',
+  },{
+    name:'Yogesh S',
+    post:'IPL Auction',
+    mobile:'9488605671',
+  },{
+    name:'Saravana Sathish R',
+    post:'Quizz Carze',
+    mobile:'8778763236',
+  },{
+    name:'Jayasuriya S',
+    post:'Micro Film',
+    mobile:'9498405303',
+  },{
+    name:'Sanjid S',
+    post:'Wibe Capture',
+    mobile:'9025884300',
+  },{
+    name:'Vishal P',
+    post:'Meme Contest',
+    mobile:'8248631720',
+  },{
+    name:'Kishore R',
+    post:'Logo Making ',
+    mobile:'6379670588',
+  },{
+    name:'Kishore R',
+    post:'Poster Presentation ',
+    mobile:'6379670588',
   },
 ]
   return (
@@ -38,7 +74,7 @@ const Contact = () => {
                 <p className='contact-text'>{each.name}</p>
                 <p className='contact-text'>{each.post}</p>
                 <p className='contact-text'>{each.mobile}</p>
-                <p className='contact-text'>{each.mail}</p>
+              
               </div>
             ))
           }

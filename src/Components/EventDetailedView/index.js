@@ -4,11 +4,11 @@ import './index.css'
 const techEvents = {
   
   PaperPresentation: {
-    event: 'Paper Presentation',
+    event: 'Call For Papers',
     coordinator:'YASHVANTH S',
     contactNo:'9043241982',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
-    googleFormLink:'https://www.youtube.com/',
+    googleFormLink:'https://docs.google.com/forms/d/e/1FAIpQLScmPrq5uqBAkNowkqpJOMCqPzHvXPvg1GEsXlGxJ6at996HwA/viewform?usp=sf_link',
     rules:
     [
       "College ID card is REQUIRED.",
@@ -26,11 +26,11 @@ const techEvents = {
     ]
   },
   ProjectPresentation: {
-    event: 'Project Presentation',
+    event: 'Tech Carnival',
     coordinator:'THILLAI NATHAN M',
     contactNo:'6383220594',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
-    googleFormLink:'https://www.youtube.com/',
+    googleFormLink:'https://docs.google.com/forms/d/e/1FAIpQLSeReVeMRKcZ77M9b8oCLFlKM4d8_zIEUclBcqba9XLzhWLwWw/viewform?usp=sf_link',
     rules:
     [
       "College ID card is REQUIRED.",
@@ -40,16 +40,17 @@ const techEvents = {
       "Replacements of Team members are not allowed after registration.",
       "Registration Fees is Rs. 200/- per head.",
       "Last Date for registration: OCTOBER 19 at 11pm",
+      "You Can show Case your Project Prototype or model here along with your Presentations",
       "Winners will Receive a CASH PRIZE",
       "Minimum 5 to maximum 10 slides should be there for presenting the Project"
     ]
   },
   circuitDebugging:{
-    event: 'Circuit Debugging',
+    event: 'Trouble Shooting',
     coordinator:'YOGESH S',
     contactNo:'9488605671',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
-    googleFormLink:'https://www.youtube.com/',
+    googleFormLink:'https://docs.google.com/forms/d/e/1FAIpQLSe6BlDdCG7qLYgCR3UP3t7BmkdgrNX0IykaqPILGC_OsX4E_w/viewform?usp=sf_link',
     rules:
     [
       "College ID card is REQUIRED.",
@@ -68,11 +69,11 @@ const techEvents = {
     ]
   },
   technicalQuiz:{
-    event: 'Technical Quiz',
+    event: 'Quizz Bowl',
     coordinator:'SARAVANA SATHISH R',
     contactNo:'8778763236',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
-    googleFormLink:'https://www.youtube.com/',
+    googleFormLink:'https://docs.google.com/forms/d/e/1FAIpQLSfmkfwowOfupyFaYD9z93VX7Oiuwti6Fs1pptboUJqFCymvHg/viewform?usp=sf_link',
     rules:
     [
       "College ID card is REQUIRED.",
@@ -93,7 +94,7 @@ const techEvents = {
     coordinator:'ARVIND R',
     contactNo:'7448863380',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
-    googleFormLink:'https://www.youtube.com/',
+    googleFormLink:'https://docs.google.com/forms/d/e/1FAIpQLSdR-8jlBqnKXbwvF91HDb4bt53D-PnrwVFPrMxlF-NBdTWsEA/viewform?usp=sf_link',
 
     rules:
     [
@@ -113,7 +114,7 @@ const techEvents = {
     coordinator:'BOOBALAN D',
     contactNo:'9942817568',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
-    googleFormLink:'https://www.youtube.com/',
+    googleFormLink:'https://docs.google.com/forms/d/e/1FAIpQLSfJaQ6L7vRBIbPt9EdWIyitmpR_wWp99YjYXnJod0R-iPTlDQ/viewform?usp=sf_link',
     rules:
     [
       "College ID card is REQUIRED.",
@@ -129,11 +130,11 @@ const techEvents = {
     ]
   },
   Workshop:{
-    event: 'Iot And Embedded Workshop',
+    event: 'IoT And Embedded Workshop',
     coordinator:'Pavish S',
     contactNo:'9894835807',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
-    googleFormLink:'https://www.youtube.com/',
+    googleFormLink:'https://docs.google.com/forms/d/e/1FAIpQLScnTW6nXtCsJroCsklU3jiMwgbj4IudCaxDOEJ8vxep4W3Dpw/viewform?usp=sf_link',
     rules:
     [
       "College ID card is REQUIRED.",

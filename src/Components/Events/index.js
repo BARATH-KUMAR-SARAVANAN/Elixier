@@ -26,7 +26,7 @@ const Events = () => {
           </div>
           <div className='technical-container'>
             <h3 className='events-subHeading'>Workshop</h3>
-            <img className='technical-events-picture' src="https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727717459/WhatsApp_Image_2024-09-30_at_21.38.25_3944a7e7_up0zgk.jpg" alt='events'/>
+            <img className='technical-events-picture' src="https://res.cloudinary.com/dt9nmt0n0/image/upload/v1728015011/Workshop_ishplh.jpg" alt='events'/>
             <Link  to={`/events/tech_events/Workshop`}>
               <button className='moreDetail-button'>More Detail</button>
             </Link>

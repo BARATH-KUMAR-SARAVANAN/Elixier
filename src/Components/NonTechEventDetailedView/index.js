@@ -6,9 +6,9 @@ const nonTechEventDetailedView ={
  "mobile-photography": {
     coordinator:'Sanjid S',
     contactNo:'9025884300',
-    event: 'Mobile Photography',
+    event: 'Wibe Capture',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
-    googleFormLink:'https://www.youtube.com/',
+    googleFormLink:'https://docs.google.com/forms/d/e/1FAIpQLSfvkL3hxnjmkvlGbEp6Cvoc1FUAk4jmVDXeMoWZt1jtw9fEkQ/viewform?usp=sf_link',
     rules:
     [
       "Mobile model must be mentioned",
@@ -22,18 +22,18 @@ const nonTechEventDetailedView ={
     ]
   },
   'meme-contest':{
-    coordinator:'Sujithkkumar',
-    contactNo:'01234567890',
+    coordinator:'Vishal P',
+    contactNo:'8248631720',
     event: 'Meme Contest',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
-    googleFormLink:'https://www.youtube.com/',
+    googleFormLink:'https://docs.google.com/forms/d/e/1FAIpQLSfvkL3hxnjmkvlGbEp6Cvoc1FUAk4jmVDXeMoWZt1jtw9fEkQ/viewform?usp=sf_link',
     rules:
     [
       "Only engineering college students are allowed", 
       "College ID card is must ",  
       "Topic - yaar endru Terigiratha ( based on old tech Vs. new tech)",  
       "each participants must create a meme that is both troll and awareness meme", 
-      "send your short copy as a document to _____________  on WhatsApp ", 
+      "send your short copy as a document to 6379670588 on WhatsApp ", 
       "E-certificates will be provided",  
       "only register students are allowed", 
       "last date for registration October"
@@ -42,9 +42,9 @@ const nonTechEventDetailedView ={
   'non-tech-quiz':{
     coordinator:'Saravana Sathish R',
     contactNo:'8778763236',
-    event: 'Non-Tech Quiz',
+    event: 'Quizz Craze',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
-    googleFormLink:'https://www.youtube.com/',
+    googleFormLink:'https://docs.google.com/forms/d/e/1FAIpQLSfvkL3hxnjmkvlGbEp6Cvoc1FUAk4jmVDXeMoWZt1jtw9fEkQ/viewform?usp=sf_link',
     rules:
     [
       "Only engineering college students are allowed",
@@ -54,31 +54,31 @@ const nonTechEventDetailedView ={
       "Only registered students are allowed", 
       "participation certificate will be provided to all participants", 
       "Replacement of any participants is not allowed after registration", 
-      "Last date for registration October ____"
+      "Last date for registration October 19, 11PM"
     ]
   },
   'short-flim-making':{
-    coordinator:'Jaya Suriya ',
+    coordinator:'Jaya Suriya S',
     contactNo:'9498405303',
     event: 'Short Flim',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
-    googleFormLink:'https://www.youtube.com/',
+    googleFormLink:'https://docs.google.com/forms/d/e/1FAIpQLSc0cIRYHhUgL5GAi9n6HuBtIakJtKV8kiLvkBeImlXTC7FFag/viewform?usp=sf_link',
     rules:
     [
       "Only engineering college students are allowed", 
       "Only register students are allowed", 
       "College ID card is must", 
       "Duration of the short film is 15 to 20 minutes", 
-      "Send your short coffee via WhatsApp number to _______", 
+      "Send your short film via WhatsApp number to 8248631720", 
       "last date for sending the short film"
     ]
   },
   'logo-making':{
-    coordinator:'Sujithkkumar',
-    contactNo:'01234567890',
+    coordinator:'Kishore R',
+    contactNo:'6379670588',
     event: 'Logo Making',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
-    googleFormLink:'https://www.youtube.com/',
+    googleFormLink:'https://docs.google.com/forms/d/e/1FAIpQLSfvkL3hxnjmkvlGbEp6Cvoc1FUAk4jmVDXeMoWZt1jtw9fEkQ/viewform?usp=sf_link',
     rules:
     [
       "Keep it Simple: A clean and minimalistic design is more versatile and easier to recognize.",
@@ -101,41 +101,45 @@ const nonTechEventDetailedView ={
     ]
   },
   'poster-presentation':{
-    coordinator:'Sujithkkumar',
-    contactNo:'01234567890',
+    coordinator:'Kishore R',
+    contactNo:'6379670588',
     event: 'Poster Presentation',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
-    googleFormLink:'https://www.youtube.com/',
+    googleFormLink:'https://docs.google.com/forms/d/e/1FAIpQLSfvkL3hxnjmkvlGbEp6Cvoc1FUAk4jmVDXeMoWZt1jtw9fEkQ/viewform?usp=sf_link',
     rules:
     [
-      "Stick to the allotted time, usually 10-15 minutes for the presentation and 5 minutes for Q&A.",
-      'Ensure your presentation has a clear structure—Introduction, Methodology, Results, Conclusion.',
-      'Use minimal text per slide, focusing on bullet points and visuals (graphs, diagrams, images) over paragraphs.',
-      'Present complex ideas simply; avoid jargon unless necessary, and define any technical terms.',
-      'Dress professionally and maintain good posture. Be confident in your delivery and maintain eye contact.',
-      'Ask thought-provoking questions to the audience or use real-world examples to keep them engaged.',
-      'Mention sources and references where necessary to establish credibility.',
-      'Be respectful during the Q&A session, even if the questions are challenging. Respond clearly and concisely.',
-      'Always carry a backup copy of your presentation on a USB and/or cloud storage.'
+      "Keep it Simple: A clean and minimalistic design is more versatile and easier to recognize.",
+      "Ensure the Poster looks good in all sizes",
+      "Use Relevant Imagery: Incorporate elements that reflect the given topics ",
+      "The Poster should work well in color, black and white, grayscale, and inverted formats.",
+      "Choose Appropriate Colors: Use colors that evoke the right emotions",
+      "Create the Poster in apps like (e.g., Adobe Illustrator,canva,picart) to maintain quality at any size ",
+      "Make sure the Poster looks good on light, dark, and textured backgrounds.",
+      "Choose fonts that are legible, appropriate to the topic, and align with the overall Poster Presentation.",
+      "Avoid Complexity: Overly intricate designs can be hard to reproduce and understand at small sizes.",
+      "Using stock images can cheapen your design and make it feel generic.",
+      "Do not create a Poster using any ai tools .",
+      "Don't Overcrowd the Poster: Avoid cramming in too much text or elements; simplicity is key.",
+      "Only engineering college students are allowed",
+      "Master wear College ID card", 
+      "Only registered students are allowed", 
+      "participation certificate will be provided to all participants", 
+      "Replacement of any participants is not allowed after registration", 
     ]
   },
   'iplAuction':{
-    coordinator:'Sujithkkumar',
-    contactNo:'01234567890',
-    event: 'Poster Presentation',
-    imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
-    googleFormLink:'https://www.youtube.com/',
+    coordinator:'Yogesh S',
+    contactNo:'9488605671',
+    event: 'IPL Auction',
+    imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1728028205/ipl_auction_ltt4pt.jpg',
+    googleFormLink:'https://docs.google.com/forms/d/e/1FAIpQLSfvkL3hxnjmkvlGbEp6Cvoc1FUAk4jmVDXeMoWZt1jtw9fEkQ/viewform?usp=sf_link',
     rules:
     [
-      "Stick to the allotted time, usually 10-15 minutes for the presentation and 5 minutes for Q&A.",
-      'Ensure your presentation has a clear structure—Introduction, Methodology, Results, Conclusion.',
-      'Use minimal text per slide, focusing on bullet points and visuals (graphs, diagrams, images) over paragraphs.',
-      'Present complex ideas simply; avoid jargon unless necessary, and define any technical terms.',
-      'Dress professionally and maintain good posture. Be confident in your delivery and maintain eye contact.',
-      'Ask thought-provoking questions to the audience or use real-world examples to keep them engaged.',
-      'Mention sources and references where necessary to establish credibility.',
-      'Be respectful during the Q&A session, even if the questions are challenging. Respond clearly and concisely.',
-      'Always carry a backup copy of your presentation on a USB and/or cloud storage.'
+      "Only Engineering College students are allowed",
+      "Only Registered Students are allowed",
+      "College ID card is Must",
+      "any one can participate",
+      "Certificates will be provided to winning Team."
     ]
   }
 }
