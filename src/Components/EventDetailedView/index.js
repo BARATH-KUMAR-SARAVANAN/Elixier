@@ -2,7 +2,7 @@ import { useParams } from 'react-router-dom'
 import Navbar from '../Navbar'
 import './index.css'
 const techEvents = {
-  
+
   PaperPresentation: {
     event: 'Call For Papers',
     coordinator:'YASHVANTH S',
