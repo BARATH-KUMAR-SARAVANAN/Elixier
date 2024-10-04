@@ -4,8 +4,8 @@ import './index.css'
 
 const nonTechEventDetailedView ={
  "mobile-photography": {
-    coordinator:'Sanjid S',
-    contactNo:'9025884300',
+    coordinator:'Sharath Raj J K',
+    contactNo:'7305188225',
     event: 'Mobile Photography',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
     googleFormLink:'https://docs.google.com/forms/d/e/1FAIpQLSfvkL3hxnjmkvlGbEp6Cvoc1FUAk4jmVDXeMoWZt1jtw9fEkQ/viewform?usp=sf_link',

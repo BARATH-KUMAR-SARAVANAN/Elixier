@@ -6,11 +6,11 @@ const Contact = () => {
   const membersDetails = [
     {
     name:'Yashvanth S',
-    post:'Call For Papers',
+    post:'Paper Presentation',
     mobile:'9043241982',
   },{
     name:'Thillainathan M',
-    post:'Tech Carnival',
+    post:'Project Presentation',
     mobile:'6383220594',
   },{
     name:'Pavish S',
@@ -18,11 +18,11 @@ const Contact = () => {
     mobile:'9894835807',
   },{
     name:'Yogesh S',
-    post:'Trouble Shooting',
+    post:'Circuit Debugging',
     mobile:'9488605671',
   },{
     name:'Saravana Sathish R',
-    post:'Quizz Bowl',
+    post:'Technical Quiz',
     mobile:'8778763236',
   },{
     name:'Arvind R',
@@ -38,16 +38,16 @@ const Contact = () => {
     mobile:'9488605671',
   },{
     name:'Saravana Sathish R',
-    post:'Quizz Carze',
+    post:'Non-Technical Quiz',
     mobile:'8778763236',
   },{
     name:'Jayasuriya S',
-    post:'Micro Film',
+    post:'Short Film',
     mobile:'9498405303',
   },{
-    name:'Sanjid S',
-    post:'Wibe Capture',
-    mobile:'9025884300',
+    name:'Sharath Raj J K',
+    post:'Mobile Photography',
+    mobile:'7305188225',
   },{
     name:'Vishal P',
     post:'Meme Contest',
