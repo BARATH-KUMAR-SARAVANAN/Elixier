@@ -37,9 +37,13 @@
   border-radius: 20px;
   border: 1px solid rgba(255,255,255,0.18);
   box-shadow: 0 8px 32px 0 rgba(0, 0,0,0.37);
-
 }
-
+.date{
+  font-size: 30px;
+  font-weight: bold;
+  color:#ffce10;
+  text-shadow: 0px 0px 20px white;
+}
 .events-button{
   background-color: #0785de ;
   border: 0px solid;

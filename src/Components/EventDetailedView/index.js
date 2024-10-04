@@ -4,7 +4,7 @@ import './index.css'
 const techEvents = {
 
   PaperPresentation: {
-    event: 'Call For Papers',
+    event: 'Paper Presentation',
     coordinator:'YASHVANTH S',
     contactNo:'9043241982',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
@@ -26,7 +26,7 @@ const techEvents = {
     ]
   },
   ProjectPresentation: {
-    event: 'Tech Carnival',
+    event: 'Project Presentation',
     coordinator:'THILLAI NATHAN M',
     contactNo:'6383220594',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
@@ -46,7 +46,7 @@ const techEvents = {
     ]
   },
   circuitDebugging:{
-    event: 'Trouble Shooting',
+    event: 'Circuit Debugging',
     coordinator:'YOGESH S',
     contactNo:'9488605671',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
@@ -69,7 +69,7 @@ const techEvents = {
     ]
   },
   technicalQuiz:{
-    event: 'Quizz Bowl',
+    event: 'Technical Quiz',
     coordinator:'SARAVANA SATHISH R',
     contactNo:'8778763236',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',

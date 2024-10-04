@@ -6,21 +6,21 @@ import { Link } from 'react-router-dom'
 const techEvents = [
   {
     id: 'PaperPresentation',
-    event: 'Call For Papers',
+    event: 'Paper Presentation',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727720048/WhatsApp_Image_2024-09-30_at_23.44.01_2d186dcc_cwnwug.jpg'
   },
   {
     id:'ProjectPresentation',
-    event: 'Tech Carnival',
+    event: 'Project Presentation',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727717463/WhatsApp_Image_2024-09-30_at_21.38.17_bab237c3_cq92yh.jpg',
   },
   {
     id: 'circuitDebugging',
-    event: 'Trouble Shooting',
+    event: 'Circuit Debugging',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727718853/WhatsApp_Image_2024-09-30_at_23.21.01_621b6fe2_nsngcr.jpg',
   },{
     id: 'technicalQuiz',
-    event: 'Quizz bowl',
+    event: 'Technical Quiz',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727717446/WhatsApp_Image_2024-09-30_at_21.26.45_9c301757_iunhnd.jpg',
   },{
     id:'SpellTech',

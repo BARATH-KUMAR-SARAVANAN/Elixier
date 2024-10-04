@@ -13,12 +13,14 @@
   background-size: cover;
   min-height: 100vh;
 }
+
 .contacts-heading{
   color: #ffce10;
 }
 .contacts-holder{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
   flex-wrap: wrap;
   width: 100%;
 }
@@ -48,9 +50,24 @@
   font-family: Trebuchet MS  ;
   margin: 5px;
 }
+.map-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.map-heading{
+  color: #ffce10;
+}
+.map-responsive{
+  width: 100%;
+}
 @media (min-width:768px) {
   .contacts-body-part{
     background-image: url('https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727866757/background_pic_clg_mobile_klkkhl.jpg');
+  }
+  .map-responsive{
+    width: 500px;
   }
 }
 @media (min-width:992px) {

@@ -67,6 +67,16 @@ const Contact = () => {
       <Navbar/>
       <div className='contacts-body-part'>
         <h1 className='contacts-heading'>Contacts</h1>
+        <div className='contact-card'>
+          <p className='contact-text'>Sujithkkumar R</p>
+          <p className='contact-text'>Secretary</p>
+          <p className='contact-text'>7010191662</p>
+        </div>
+        <div className='contact-card'>
+          <p className='contact-text'>Alex Pandiyan</p>
+          <p className='contact-text'>Co-Ordinator</p>
+          <p className='contact-text'>7092273586</p>
+        </div>
         <div className='contacts-holder'>
           {
             membersDetails.map(each=>(
@@ -79,6 +89,16 @@ const Contact = () => {
             ))
           }
           
+        </div>
+        <div className='map-container'>
+          <h1 className='map-heading'>Location</h1>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125148.47939435899!2d77.58554962001196!3d11.415530896317522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba9699755561a47%3A0xb8c3c353be0ad19b!2sGovernment%20College%20of%20Engineering%2C%20Erode%20(IRTT%20%2FGCE-E)!5e0!3m2!1sen!2sin!4v1728061865452!5m2!1sen!2sin" 
+          width="1200" height="450" 
+          allowFullScreen="" 
+          loading="lazy" 
+          title='GCE ERODE Location'
+          className='map-responsive'
+          referrerPolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
     </div>

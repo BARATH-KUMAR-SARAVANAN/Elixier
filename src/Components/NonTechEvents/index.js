@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 const nonTechEvents =[
   {
     id: 'mobile-photography',
-    event: 'Wibe Capture',
+    event: 'Mobile Photography',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727721975/WhatsApp_Image_2024-10-01_at_00.10.09_ebc7acf4_re3coq.jpg',
   },{
     id:'meme-contest',
@@ -15,7 +15,7 @@ const nonTechEvents =[
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727721976/WhatsApp_Image_2024-10-01_at_00.11.17_457d46da_tyaml5.jpg',
   },{
     id: 'non-tech-quiz',
-    event: 'Quizz craze',
+    event: 'Non-Tech Quiz',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1727717455/WhatsApp_Image_2024-09-30_at_21.27.21_c3341e62_raiu8k.jpg',
   },{
     id: 'logo-making',
