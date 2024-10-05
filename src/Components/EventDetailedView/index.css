@@ -17,6 +17,7 @@
 .rulesContainer{
   list-style-type: disc;
   color: white;
+  
 }
 .eventCoordinatorCard{
   color: white;
@@ -27,7 +28,7 @@
   text-align: center;
 }
 .rulesElement{
-  font-size: 20px;
+  font-size: 15px;
 }
 .coordinatorText{
   margin: 2px;
@@ -43,4 +44,9 @@
 .link:hover{
   text-shadow:  0px 0px 3px  rgb(255, 255, 255);
   scale: 1.1;
+}
+@media (min-width:992px) {
+  .rulesElement{
+    font-size: 20px;
+  }
 }

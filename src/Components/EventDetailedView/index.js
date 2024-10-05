@@ -16,7 +16,6 @@ const techEvents = {
       "A College can send any number of teams with no more than 3 students per team.",
       "All Participants are allowed to use a maximum of 10 Slides, including Participant Details.",
       "The Maximum time limit for each team is 5 minutes.",
-      "Topics must be selected from the topics given below.",
       "Only Engineering College students can participate.",
       "Only Registered students must participate.",
       "Replacements of Team members are not allowed after registration.",
@@ -95,7 +94,6 @@ const techEvents = {
     contactNo:'7448863380',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
     googleFormLink:'https://docs.google.com/forms/d/e/1FAIpQLSdR-8jlBqnKXbwvF91HDb4bt53D-PnrwVFPrMxlF-NBdTWsEA/viewform?usp=sf_link',
-
     rules:
     [
       "College ID card is REQUIRED.",
@@ -103,6 +101,7 @@ const techEvents = {
       "Only Registered students must participate.",
       "Replacements of Team members are not allowed after registration.",
       "Registration Fees is Rs. 200/- per head.",
+      "Additionally you can also participate either Circuit Debugging, Technical Quiz, or Just A Minute.",
       "Last Date for registration: OCTOBER 19 at 11pm",
     ]
   },

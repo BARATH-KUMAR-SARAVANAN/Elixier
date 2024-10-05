@@ -9,12 +9,10 @@
   background-size: cover;
   padding-top: 80px;
 }
-
 .detailedViewHeading{
   font-weight: bold;
   color: #ffce10;
 }
-
 .rulesContainer{
   list-style-type: disc;
   color: white;
@@ -36,4 +34,12 @@
   text-decoration: none;
   font-weight: bold;
   margin: 20px;
+}
+.rulesElement{
+  font-size: 15px;
+}
+@media (min-width:992px) {
+  .rulesElement{
+    font-size: 20px;
+  }
 }
