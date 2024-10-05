@@ -99,14 +99,11 @@ const techEvents = {
     rules:
     [
       "College ID card is REQUIRED.",
-      "A College can send any number of teams with 3-4 students per team.",
       "Only Engineering College students can participate.",
       "Only Registered students must participate.",
       "Replacements of Team members are not allowed after registration.",
       "Registration Fees is Rs. 200/- per head.",
       "Last Date for registration: OCTOBER 19 at 11pm",
-      "Winners will Receive a CASH PRIZE",
-      "Minimum 5 to maximum 10 slides should be there for presenting the Project"
     ]
   },
   JustAMinute:{

@@ -73,7 +73,7 @@ const Contact = () => {
           <p className='contact-text'>7010191662</p>
         </div>
         <div className='contact-card'>
-          <p className='contact-text'>Alex Pandiyan</p>
+          <p className='contact-text'>Alex Pandian T</p>
           <p className='contact-text'>Co-Ordinator</p>
           <p className='contact-text'>7092273586</p>
         </div>

@@ -36,7 +36,7 @@ const nonTechEventDetailedView ={
       "send your short copy as a document to 6379670588 on WhatsApp ", 
       "E-certificates will be provided",  
       "only register students are allowed", 
-      "last date for registration October",
+      "last date for registration October 19, 11PM",
     ]
   },
   'non-tech-quiz':{
@@ -48,7 +48,7 @@ const nonTechEventDetailedView ={
     rules:
     [
       "Only engineering college students are allowed",
-      "Master wear College ID card", 
+      "Must wear College ID card", 
       "There will be two rounds conducted round duration will be 20 and 15 minutes for two rounds",
       "The participants will not be allowed to use mobile phones are other electronics instrument", 
       "Only registered students are allowed", 
@@ -70,7 +70,7 @@ const nonTechEventDetailedView ={
       "College ID card is must", 
       "Duration of the short film is 15 to 20 minutes", 
       "Send your short film via WhatsApp number to 8248631720", 
-      "last date for sending the short film"
+      "last date for sending the short film is October 19, 11PM"
     ]
   },
   'logo-making':{
@@ -90,7 +90,7 @@ const nonTechEventDetailedView ={
       "Do not create a logo using any ai tools",
       "Avoid cramming in too much text or elements; simplicity is key.",
       "send your short copy as a document to 6379670588 on WhatsApp ", 
-      "Master wear College ID card", 
+      "Must wear College ID card", 
       "participation certificate will be provided to all participants", 
     ]
   },
@@ -111,7 +111,7 @@ const nonTechEventDetailedView ={
       "Do not create a Poster using any ai tools",
       "send your short copy as a document to 6379670588 on WhatsApp ", 
       "Avoid cramming in too much text or elements; simplicity is key.",
-      "Master wear College ID card", 
+      "Must wear College ID card", 
       "participation certificate will be provided to all participants", 
     ]
   },
