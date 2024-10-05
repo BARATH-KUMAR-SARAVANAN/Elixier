@@ -6,7 +6,7 @@ const nonTechEventDetailedView ={
  "mobile-photography": {
     coordinator:'Sharath Raj J K',
     contactNo:'7305188225',
-    event: 'Mobile Photography',
+    event: 'Vibe Capture',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
     googleFormLink:'https://docs.google.com/forms/d/e/1FAIpQLSfvkL3hxnjmkvlGbEp6Cvoc1FUAk4jmVDXeMoWZt1jtw9fEkQ/viewform?usp=sf_link',
     rules:
@@ -42,7 +42,7 @@ const nonTechEventDetailedView ={
   'non-tech-quiz':{
     coordinator:'Saravana Sathish R',
     contactNo:'8778763236',
-    event: 'Non-Tech Quiz',
+    event: 'Quizz Craze',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
     googleFormLink:'https://docs.google.com/forms/d/e/1FAIpQLSfvkL3hxnjmkvlGbEp6Cvoc1FUAk4jmVDXeMoWZt1jtw9fEkQ/viewform?usp=sf_link',
     rules:
@@ -57,10 +57,10 @@ const nonTechEventDetailedView ={
       "Last date for registration October 19, 11PM"
     ]
   },
-  'short-flim-making':{
+  'short-film-making':{
     coordinator:'Jaya Suriya S',
     contactNo:'9498405303',
-    event: 'Short Flim',
+    event: 'Micro Film',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
     googleFormLink:'https://docs.google.com/forms/d/e/1FAIpQLSc0cIRYHhUgL5GAi9n6HuBtIakJtKV8kiLvkBeImlXTC7FFag/viewform?usp=sf_link',
     rules:

@@ -1,10 +1,10 @@
 import { useParams } from 'react-router-dom'
 import Navbar from '../Navbar'
 import './index.css'
-const techEvents = {
 
+const techEvents = {
   PaperPresentation: {
-    event: 'Paper Presentation',
+    event: 'Call For Papers',
     coordinator:'YASHVANTH S',
     contactNo:'9043241982',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
@@ -25,7 +25,7 @@ const techEvents = {
     ]
   },
   ProjectPresentation: {
-    event: 'Project Presentation',
+    event: 'Technical Carnival',
     coordinator:'THILLAI NATHAN M',
     contactNo:'6383220594',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
@@ -45,7 +45,7 @@ const techEvents = {
     ]
   },
   circuitDebugging:{
-    event: 'Circuit Debugging',
+    event: 'Trouble Shooting',
     coordinator:'YOGESH S',
     contactNo:'9488605671',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
@@ -68,7 +68,7 @@ const techEvents = {
     ]
   },
   technicalQuiz:{
-    event: 'Technical Quiz',
+    event: 'Quizz Bowl',
     coordinator:'SARAVANA SATHISH R',
     contactNo:'8778763236',
     imgUrl:'https://res.cloudinary.com/dt9nmt0n0/image/upload/v1682769737/pexels-pixabay-53464_pzgmds.jpg',
