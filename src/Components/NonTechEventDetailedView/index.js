@@ -85,7 +85,7 @@ const nonTechEventDetailedView ={
       "Create the logo in apps like (e.g., Adobe Illustrator,canva,picart) to maintain quality at any size ",
       "Make sure the logo looks good on light, dark, and textured backgrounds.",
       "Choose fonts that are appropriate to the topic, and align with design.",
-      "Overly intricate designs can be hard to understand at small sizes.",
+      "Imagine you are Starting a startup in Electrical and Electronics domain. Design the logo for that.",
       "Using stock images can cheapen your design and make it feel generic.",
       "Do not create a logo using any ai tools",
       "Avoid cramming in too much text or elements; simplicity is key.",
@@ -103,6 +103,7 @@ const nonTechEventDetailedView ={
     rules:
     [
       "Ensure the Poster looks good in all sizes",
+      "The topic is open for poster presentation",
       "The Poster should work well in color, black and white, grayscale, and inverted formats.",
       "Create the Poster in apps like (e.g., Adobe Illustrator,canva,picart) to maintain quality at any size ",
       "Make sure the Poster looks good on light, dark, and textured backgrounds.",

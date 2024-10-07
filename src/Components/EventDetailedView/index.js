@@ -138,6 +138,7 @@ const techEvents = {
       "Only Registered students must participate.",
       "Registration Fees is Rs. 300/- per head.",
       "Last Date for registration: OCTOBER 19 at 11pm.",
+      "Students should be present in the college at 9:00 AM for the workshop",
       "Participation certificates will be provided to all participants."
     ]
   },
