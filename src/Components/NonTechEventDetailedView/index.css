@@ -38,6 +38,9 @@
 .rulesElement{
   font-size: 15px;
 }
+.Link-icon{
+  color: silver;
+}
 @media (min-width:992px) {
   .rulesElement{
     font-size: 20px;

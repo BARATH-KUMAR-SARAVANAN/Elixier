@@ -163,7 +163,7 @@ const EventDetailedView = () => {
             <p className='coordinatorText'>{eve.coordinator}</p>
             <p className='coordinatorText'>{eve.contactNo}</p>
           </div>
-          <a className='link' target='_blank' rel='noopener noreferrer' href={eve.googleFormLink}>Registration Link</a>
+          <a className='link' target='_blank' rel='noopener noreferrer' href={eve.googleFormLink}><i class="fa-solid fa-link Link-icon"></i> Registration Link</a>
         </div>
       </div>
     )
