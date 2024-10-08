@@ -67,6 +67,7 @@ const nonTechEventDetailedView ={
     [
       "Only engineering college students are allowed", 
       "Only register students are allowed", 
+      "For Short Film Registration Fees is Rs.150/- per head",
       "College ID card is must", 
       "Duration of the short film is 15 to 20 minutes", 
       "Send your short film via WhatsApp number to 8248631720", 
